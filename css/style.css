@@ -55,6 +55,13 @@ body {
   opacity: 0.75;
 }
 
+.loading-init .developer {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 12px;
+}
+
 .stage-container {
   overflow: hidden;
   box-sizing: initial;

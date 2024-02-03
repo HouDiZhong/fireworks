@@ -2295,7 +2295,7 @@ if (IS_HEADER) {
 	init();
 } else {
 	// Allow status to render, then preload assets and start app.
-	setLoadingStatus('点击屏幕开启 烟花盛宴');
+	// setLoadingStatus('点击屏幕开启 烟花盛宴');
 	setTimeout(() => {
 		soundManager.preload()
 		.then(

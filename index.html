@@ -42,6 +42,7 @@
 	<div class="loading-init">
 		<div data-year="edit" class="loading-init__header">龙年大吉</div>
 		<div class="loading-init__status">点击开启 烟花盛宴</div>
+		<div class="developer">powered by H·ZX</div>
 	</div>
 	<div class="stage-container remove">
 		<div class="canvas-container">
@@ -129,6 +130,13 @@
 			years = '、鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪'.split('、')
 			
 		docs.forEach(doc => doc.textContent = years[y % 12] + '年大吉')
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?34858ea2e473ee887b429707e4a7614b";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})()
 	</script>
 	<script src='js/fscreen.js'></script>
 	<script src='js/ticker.js'></script>
